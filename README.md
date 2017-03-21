@@ -5,7 +5,7 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.back
 
 git clone https://github.com/zhaochong/sourcelist.git 
 
-sudo cp sourcelist/* /etc/apt/sources.list.d
+sudo cp sourcelist/list/* /etc/apt/sources.list.d
 
 sudo apt-get update
 
